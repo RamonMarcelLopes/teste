@@ -7,7 +7,7 @@ chrome.webRequest.onHeadersReceived.addListener(
       return { responseHeaders };
     },
     {
-      urls: ["https://*.mateus7g.github.io/*", "https://pl.crunchyroll.com/*", "https://www.crunchyroll.com/*", "http://localhost/*"],
+      urls: ["https://*.jacare-camabox.github.io/*", "https://pl.crunchyroll.com/*", "https://www.crunchyroll.com/*", "http://localhost/*"],
       types : ["main_frame", "sub_frame", "stylesheet", "script", "image", "object", "xmlhttprequest", "other"]
     },
     ["blocking","responseHeaders", "extraHeaders"]
