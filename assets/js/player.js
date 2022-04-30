@@ -230,8 +230,8 @@ window.addEventListener("message", async e => {
       .addButton(rewind_iconPath, rewind_tooltipText, rewind_ButtonClickAction, rewind_id)
       .addButton(download_iconPath, download_tooltipText, download_ButtonClickAction, download_id);
 
-    if (version !== "1.1.0")
-      playerInstance.addButton(update_iconPath, update_tooltipText, update_ButtonClickAction, update_id);
+    //if (version !== "1.1.0")
+      //playerInstance.addButton(update_iconPath, update_tooltipText, update_ButtonClickAction, update_id);
 
     // Definir URL e Tamanho na lista de download
     for (let id of [1,0,2,3,4]) {
