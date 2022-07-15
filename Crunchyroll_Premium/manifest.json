@@ -15,7 +15,7 @@
     "http://localhost/*",
     "https://pl.crunchyroll.com/*",
     "https://www.crunchyroll.com/*",
-    "https://*.jacare-camabox.github.io/*",
+    "https://ramonmarcellopes.github.io/*",
 		"storage"
   ],
 	"content_scripts": [
